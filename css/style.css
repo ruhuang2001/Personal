@@ -98,17 +98,18 @@ body
     justify-content: space-between;
     margin: 20px 0;
 }
-.card .content .details .data h3
-{
-    font-size: 1em;
-    color: #555;
-    line-height: 1.2em;
-    font-weight: 600;
-}
-.card .content .details .data h3 span
+/*.card .content .details .data h3*/
+/*{*/
+/*    font-size: 1em;*/
+/*    color: #555;*/
+/*    line-height: 1.2em;*/
+/*    font-weight: 600;*/
+/*}*/
+.card .content .details .data span
 {
     font-size: 0.85em;
-    font-weight: 400;
+    font-weight: 500;
+    margin: 10px 10px;
     opacity: 0.5;
 }
 .card .content .details .actionBtn
@@ -125,7 +126,8 @@ body
     outline: none;
     font-size: 1em;
     font-weight: 500;
-    background: #ff5f95;
+    /*background: #ff5f95;*/
+    background: black;
     color: #fff;
     cursor: pointer;
 }
